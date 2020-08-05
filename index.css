@@ -27,16 +27,22 @@
   background-color: #2980b9;
 }
 
-.items {
+.section {
   padding-left: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   width: 80%;
 }
 
 .section-header {
   background-color: #95a5a6;
+  font-size: xx-large;
+  color: black;
   width: 25%;
   text-align: center;
+}
+
+.section-content {
+  padding-top: 10px;
 }
 
 h1,
