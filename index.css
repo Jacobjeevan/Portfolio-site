@@ -162,3 +162,9 @@ h3 {
 .card-info ul {
   padding-left: 0px;
 }
+
+.welcome {
+  padding: 15px;
+  background-color: #f39c12;
+  color: white;
+}
