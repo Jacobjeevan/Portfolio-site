@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="bodyElem">
+    <div>
       <div className="container pr-0 pl-0">
         <div className="section">
           <div className="welcome">
@@ -50,6 +50,65 @@ export default function Home() {
             <br />
             <h4>Georgia Institute of Technology</h4>
             <h5>Bachelor of Science in Nuclear and Radiological Engineering</h5>
+          </div>
+        </div>
+      </div>
+
+      <div className="container  pl-0 pr-0">
+        <div className="section">
+          <div className="section-header">Skills</div>
+          <div className="section-content">
+            <div className="skills-container">
+              <div className="skills">
+                Languages
+                <div className="skills-desc">
+                  Proficient: Java, Python, SQL
+                  <br />
+                  Familiar: C++, CSS, HTML, Javascript, Matlab
+                </div>
+              </div>
+            </div>
+
+            <div className="skills-container">
+              <div className="skills">
+                Libraries
+                <div className="skills-desc">
+                  Mongoose, Numpy, Pandas, React.js, Scikit-Learn
+                </div>
+              </div>
+            </div>
+
+            <div className="skills-container">
+              <div className="skills">
+                Frameworks
+                <div className="skills-desc">
+                  Django, Express, ElectronJS, Node.js
+                </div>
+              </div>
+            </div>
+
+            <div className="skills-container">
+              <div className="skills">
+                Databases
+                <div className="skills-desc">MongoDB, PostgreSQL</div>
+              </div>
+            </div>
+
+            <div className="skills-container">
+              <div className="skills">
+                Tools
+                <div className="skills-desc">
+                  Bash, Bootstrap, Git, Postman, WordPress
+                </div>
+              </div>
+            </div>
+
+            <div className="skills-container">
+              <div className="skills">
+                Methodologies
+                <div className="skills-desc">CRUD, MVC, OOP, RESTful, TDD</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
