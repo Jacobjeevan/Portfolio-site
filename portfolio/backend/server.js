@@ -2,6 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const projectRouter = require("./routes/projects");
+const bookRouter = require("./routes/books");
 
 require("dotenv").config();
 
@@ -12,6 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use("/projects", projectRouter);
+app.use("/books", bookRouter);
 
 const uri = process.env.ATLAS_URI;
 mongoose.connect(uri, {
