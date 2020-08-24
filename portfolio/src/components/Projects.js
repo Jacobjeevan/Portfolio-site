@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { getProjects } from "../actions/projects";
+import "./Projects.css";
 
 export default class Projects extends Component {
   constructor(props) {
@@ -23,13 +24,13 @@ export default class Projects extends Component {
         <div className="container pr-0 pl-0">
           <div className="cards-section">
             {this.state.projects.map((project) => (
-              <div className="cards" key={project._id}>
-                <div className="card-head">{project.title}</div>
-                <div className="card-info">
+              <div className="projects" key={project._id}>
+                <div className="project-head">{project.title}</div>
+                <div className="project-info">
                   <p>{project.description}</p>
                 </div>
                 {project.link && (
-                  <a className="card-link" href={project.link}>
+                  <a className="project-link" href={project.link}>
                     Link
                   </a>
                 )}

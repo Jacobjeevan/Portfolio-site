@@ -1,6 +1,18 @@
-import React from "react";
+import React, { Component } from "react";
+import Books from "./Books";
+import "./Hobbies.css";
 
-export default function Hobbies() {
+export default class Hobbies extends Component {
+  render() {
+    return (
+      <div>
+        <Books />
+      </div>
+    );
+  }
+}
+
+/* export default function Hobbies() {
   return (
     <div className="container pr-0 pl-0">
       <div className="cards-section">
@@ -48,3 +60,4 @@ export default function Hobbies() {
     </div>
   );
 }
+ */
