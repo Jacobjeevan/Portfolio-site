@@ -5,9 +5,6 @@
   font-size: small;
 }
 
-span.navbar-toggler-icon {
-}
-
 .nav-container {
   background-color: #16a085;
   position: sticky;
@@ -167,4 +164,8 @@ h3 {
   padding: 15px;
   background-color: #f39c12;
   color: white;
+}
+
+p strong {
+  font-weight: bold;
 }
