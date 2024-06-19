@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/66e8e5875d.js" crossorigin="anonymous"></script>
     <title>Jacob John Jeevan</title>
@@ -13,90 +15,102 @@
 
 <body class="bodyElem">
     <div class="nav-container">
-        <nav class="navbar navbar-expand-lg">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><i class="fas fa-sliders-h"></i></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active navs" href="#"> Home</a>
-                    <a class="nav-link navs" href="https://github.com/Jacobjeevan/">Github</a>
-                    <a class="nav-link navs" href="/Jacob_Jeevan_Resume.pdf">Resume</a>
-                    <a class="nav-link navs" href="https://www.linkedin.com/in/jeevanjacobjohn/">LinkedIn</a>
-                </div>
-            </div>
+        <div class="nav-name">
+            Jacob John Jeevan
+        </div>
+        <nav class="nav-bar">
+                <a class="nav-link navs" href="https://github.com/Jacobjeevan/">Github</a>
+                <a class="nav-link navs" href="/Jacob_Jeevan_Resume.pdf">Resume</a>
+                <a class="nav-link navs" href="https://www.linkedin.com/in/jeevanjacobjohn/">LinkedIn</a>
+                <a class="nav-link navs nav-special" href="#">Contact Me</a>
         </nav>
     </div>
 
     <div class="content">
 
-        <div class="container pr-0 pl-0">
-            <div class="section">
-                <div class="welcome">
-                    <h4>Hey there!</h4>
-                    <p>My name is Jacob Jeevan. Take a look around and if you would
-                        like to connect, email me at mail @ jacobjeevan dot me</p>
+        <div class="container mt-0 pl-0 pr-0">
+            <div class="section-work">
+                <div class="section-header">
+                    Experience
+                </div>
+                <div class="section-work-body">
+                    <div class="card-work">
+                        <div class="card-work-header">
+                            <div class="card-work-title">
+                                <div class="card-work-role">Software Engineer 2</div>
+                                <div class="card-work-company">FedEx Services</div>
+                            </div>
+                            <div class="card-work-tech">VB.NET, ASP.NET, JAVASCRIPT, MSSQL</div>
+                        </div>
+                        <div class="card-work-desc">
+                            <ul>
+                                <li>
+                                    Created an internal data query tool that saved the organization over $50k annually in licensing fees.
+                                </li>
+                                <li>
+                                    Developed a machine learning based virtual assistant using C# to help users with frequently asked questions.
+                                </li>
+                                <li>
+                                    Added functionality to internal tools using VB.NET and stored procedures to support over 20+ new countries.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-work">
+                        <div class="card-work-header">
+                            <div class="card-work-title">
+                                <div class="card-work-role">Software Developer</div>
+                                <div class="card-work-company">Donate Gifts</div>
+                            </div>
+                            <div class="card-work-tech">TYPESCRIPT, JAVASCRIPT, NODE.JS, EXPRESS.JS, MONGODB</div>
+                        </div>
+                        <div class="card-work-desc">
+                            <ul>
+                                <li>
+                                    Raised over $8k in Secret santa gift donations by developing backend API in a team
+                                    of seven.
+                                </li>
+                                <li>
+                                    Facilitated donor user interactions with recipient users by developing a messaging
+                                    system using Node.js.
+                                </li>
+                                <li>
+                                    Enabled recipient users to create Secret Santa wishes by expanding backend API using
+                                    Express.js and MongoDB.
+                                </li>
+                                <li>
+                                    Developed unit tests using mocha to test the logic and functionality of backend API.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </div>
 
-        <div class="container  pl-0 pr-0">
+        <div class="container mt-6 pl-0 pr-0">
             <div class="section">
-                <div class="section-header">Experience</div>
-                <div class="section-content">
-                    <h4>FedEx Services</h4>
-                    <ul>
-                        <li> 
-                            Developed a machine learning based virtual assistant using C# to help users with frequently asked questions.
-                        </li>
-                        <li>
-                            Added functionality to internal tools using VB.NET and stored procedures to support over 20+ new countries.
-                        </li>
-                        <li>
-                            Refactored frontend to improve user experience and reduce page loading time by using Javascript to dynamically fetch data.
-                        </li>
-                    </ul>
-
-                    <h4>Donate Gifts</h4>
-                    <ul>
-                        <li> 
-                            Raised over $8k in Secret santa gift donations by developing backend API in a team of seven.
-                        </li>
-                        <li>
-                            Facilitated donor user interactions with recipient users by developing a messaging system using Node.js.
-                        </li>
-                        <li>
-                            Enabled recipient users to create Secret Santa wishes by expanding backend API using Express.js and MongoDB.
-                        </li>
-                        <li>
-                            Developed unit tests using mocha to test the logic and functionality of backend API.
-                        </li>
-                    </ul>
+                <div class="section-header">
+                    Education
+                </div>
+                <div class="section-edu-body">
+                    <div class="section-edu-body-sub">
+                        <div class="section-edu-uni">University of Alabama at Birmingham</div>
+                        <div class="section-edu-deg">Master of Science in Computer Science</div>
+                    </div>
+                    <div class="section-edu-body-sub">
+                        <div class="section-edu-uni">Georgia Institute of Technology</div>
+                        <div class="section-edu-deg">Bachelor of Science in Nuclear and Radiological Engineering</div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="container  pl-0 pr-0">
-            <div class="section">
-                <div class="section-header">Education</div>
-                <div class="section-content">
-                    <h4>University of Alabama at Birmingham</h4>
-                    <h5>Master of Science in Computer Science </h5>
-                    </br>
-                    <h4>Georgia Institute of Technology</h4>
-                    <h5>Bachelor of Science in Nuclear and Radiological Engineering</h5>
-
-                </div>
+        <div class="container mt-6 pr-0 pl-0">
+            <div class="section-header">
+                Projects
             </div>
-        </div>
-
-
-
-        <div class="container pr-0 pl-0">
             <div class="cards-section">
-
                 <div class="cards">
                     <div class="card-head">
                         Link Shortener
@@ -121,7 +135,8 @@
                         Job Tracker
                     </div>
                     <div class="card-info">
-                        <p>- Developed a full stack Django app, with Mapbox integration, to track and visualize job applications by location.
+                        <p>- Developed a full stack Django app, with Mapbox integration, to track and visualize job
+                            applications by location.
                             </br> - Integrated CI/CD tools to deploy on push to Digital Ocean servers.
                             </br> - Created Cronjob to perform weekly database backups to S3.
                             </br> - Reworked the project with React for frontend and Django with REST for backend.
@@ -151,25 +166,16 @@
         </div>
 
         <div class="container  pl-0 pr-0">
-            <div class="section">
+            <div class="section-skills">
                 <div class="section-header">Skills</div>
                 <div class="section-content">
                     <div class="skills-container">
                         <div class="skills">
                             Languages
                             <div class="skills-desc">
-                                Proficient: Java, Python, SQL</br>
-                                Familiar: C++, CSS, HTML, Javascript, Matlab
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="skills-container">
-                        <div class="skills">
-                            Libraries
-                            <div class="skills-desc">
-                                Mongoose, Numpy, Pandas, React.js, Scikit-Learn
+                                Proficient: .NET Ecosystem (VB.NET/C#/ASP.NET), JS Ecosystem
+                                (Typescript/Node.js/React)</br>
+                                Familiar: Java, Python, Matlab
                             </div>
                         </div>
 
@@ -179,7 +185,7 @@
                         <div class="skills">
                             Frameworks
                             <div class="skills-desc">
-                                Django, Express, ElectronJS, Node.js
+                                Django, Express.js, ASP.NET, Mocha, React.js
                             </div>
                         </div>
 
@@ -189,7 +195,7 @@
                         <div class="skills">
                             Databases
                             <div class="skills-desc">
-                                MongoDB, PostgreSQL
+                                MSSQL, MongoDB, PostgreSQL
                             </div>
                         </div>
                     </div>
@@ -198,16 +204,7 @@
                         <div class="skills">
                             Tools
                             <div class="skills-desc">
-                                Bash, Bootstrap, Git, Postman, WordPress
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skills-container">
-                        <div class="skills">
-                            Methodologies
-                            <div class="skills-desc">
-                                CRUD, MVC, OOP, RESTful, TDD
+                                Bash, Bootstrap, Git, Docker, Postman
                             </div>
                         </div>
                     </div>
@@ -216,52 +213,6 @@
 
         </div>
 
-        <div class="container pr-0 pl-0">
-            <div class="cards-section">
-
-                <div class="cards">
-                    <div class="card-head">
-                        Books
-                    </div>
-                    <div class="card-info">
-                        <p><strong>Fiction</strong>: Wheel of Time, Agatha Christie's books.
-                            </br>
-                            <strong>Nonfiction</strong>: Deep Work (Cal Newport), Age of Empathy (Frans De Waal),
-                            Everything is F*cked; a
-                            book about hope (Mark Manson), Bad Samaritans: The
-                            Myth of Free Trade and the Secret History of Capitalism (Ha-Joon Chang)
-                        </p>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="card-head">
-                        Music
-                    </div>
-                    <div class="card-info">
-                        <p>
-                            <strong>Jazz</strong>: Charles Mingus, Miles Davis, Ryo Fukui </br>
-                            <strong>80s J-pop</strong>: Tatsuro Yamashita, Mariya Takeuchi </br>
-                            <strong>Hip-hop</strong>: Nujabes, Anderson Paak, DJ Okawari, Pase Rock </br>
-                            <strong>Classical</strong>: Antonin Dvorak, Richard Wagner, Francisco Tarrega</br>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="cards">
-                    <div class="card-head">
-                        Other Hobbies
-                    </div>
-                    <div class="card-info">
-                        <p>
-                            <strong>Cooking</strong>: Mostly Asian Cuisine</br>
-                            <strong>Games</strong>: Mass Effect Series, Witcher Series, Civ Series, Stellaris </br>
-                            <strong>Anime</strong>: Natsume Yuujinchou, Ghost in the Shell SAC, Space Dandy </br>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
